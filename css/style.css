@@ -1,0 +1,114 @@
+body {
+  font: 13px/14px Arial, sans-serif;
+	background: #2b1408 url('/img/background.png') center top repeat-x;
+}
+
+#wrap {
+	width: 860px;
+	margin: auto;
+}
+
+#header {
+	position: relative;
+	height: 195px;
+}
+
+#header #logo {
+	position: absolute;
+	bottom: -10px;
+	left: -10px;
+}
+
+#header #nav {
+  position: absolute;
+  right: 0;
+  bottom: 65px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header #nav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#header #nav li:last-child {
+  margin-right: 10px;
+}
+
+#header #nav a {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #873b11;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+#content-wrap {
+  position: relative;
+}
+
+#social {
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  right: -47px;
+}
+
+#social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#content-1 {
+  position: relative;
+  z-index: 2;
+  height: 210px;
+  background: #2b1404;
+  border-radius: 10px 10px 0 0;
+  padding-top: 10px;
+}
+
+#content-2 {
+  background: url('/img/carousel-background.png');
+  height: 172px;
+  border-top: 1px #000 solid;
+}
+
+#content-3 {
+  background: #000;
+  border-radius: 0 0 10px 10px;
+  padding-bottom: 10px;
+}
+
+#content {
+  overflow: auto;
+  color: #545252;
+  padding: 15px 30px;
+}
+
+#content h2 {
+  margin: 40px 0;
+}
+
+#content .btn-get-it {
+  display: inline-block;
+  background: #fff;
+  color: #545252;
+  padding: 25px 60px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Arial Black';
+  font-size: 24px;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #545252;
+}
