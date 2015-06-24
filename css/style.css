@@ -78,12 +78,25 @@ body {
 }
 
 #content-1 #pack-wrap {
-  background: #000;
+  background: url('/img/social-icon-pack-bg.png');
   position: relative;
   bottom: 40px;
-  width: 455px;
+  width: 453px;
   height: 205px;
   float: right;
+  box-shadow: 0 0 2px #000;
+}
+
+#content-1 #pack-wrap ul {
+  list-style: none;
+  padding: 0 18px;
+  margin: 0;
+  margin-top: 80px;
+}
+
+#content-1 #pack-wrap ul li {
+  display: inline-block;
+  margin: 0 4px;
 }
 
 #content-1 .about-link {
@@ -174,6 +187,7 @@ body {
 #footer {
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 80px;
   font-size: 12px;
   color: #545252;
 }
